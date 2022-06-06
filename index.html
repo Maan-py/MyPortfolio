@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/ppfb.jpg" type="image/x-icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+
+    <title>My Portfolio | Muhammad Luqmaan</title>
+  </head>
+  <body id="home" style="background-color: #3b82f6">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top glass" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Muhammad Luqmaan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" >Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="section-1" class="jumbotron text-center text-light">
+      <img src="img/maan.png" id="jumbo" alt="Muhammad Luqmaan" width="200" class="rounded-circle img-thumbnail" />
+      <h1>
+        <span class="box"></span>
+        <span class="hi">Hello, I'm</span>
+        <span class="text"></span>
+        <span class="cursor">_</span>
+      </h1>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#292f42"
+        fill-opacity="1"
+        d="M0,0L48,21.3C96,43,192,85,288,138.7C384,192,480,256,576,266.7C672,277,768,235,864,218.7C960,203,1056,213,1152,202.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about" style="background-color: #292f42">
+      <div class="container text-light">
+        <div class="row text-center mb-3" data-aos="fade-up">
+          <div class="col">
+            <div class="header header-about">
+              <h2 class="mt-4"">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center fs-5 mt-5">
+          <div class="col-md-4 pt-3" data-aos="fade-right" data-aos-duration="1000">
+            <p>Hi everyone, My name is Muhammad Luqmaan. I'm a student at one of high schools in Pekanbaru.</p>
+          </div>
+          <div class="col-md-4 pt-3" data-aos="fade-left" data-aos-delay="200">
+            <p>Coding is my new hobby lastly, I love computer since I was a kid. I also like to play FPS games.</p>
+          </div>
+        </div>
+        <div class="row text-center pt-5">
+          <div class="col">
+            <!-- <p style="color: #f63b3b" class="fs-5">These are some quick tag cloud about me</p>
+            <svg style="color: #f63b3b; cursor: pointer" onclick="show(), rotate()" id="down-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+            </svg> -->
+            <div id="holder" data-aos="zoom-in"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#292f42"
+        fill-opacity="1"
+        d="M0,64L48,96C96,128,192,192,288,213.3C384,235,480,213,576,186.7C672,160,768,128,864,122.7C960,117,1056,139,1152,138.7C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Akhir About -->
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="inner">
+        <div class="header" data-aos="fade-right">
+          <h2>My Skills</h2>
+        </div>
+        <div class="skill mt-3">
+          <div class="skill-box" data-aos="flip-right">
+            <div class="skill-tittle">
+              <div class="img">
+                <img src="img/Skill-Icon/html-5.png" alt="HTML 5" class="skill-icon"/>
+              </div>
+              <h3>HTML 5</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore excepturi corporis vitae nesciunt, autem dignissimos sapiente illum ab culpa cupiditate libero provident totam aperiam nisi ratione doloremque recusandae beatae!</p> -->
+          </div>
+          <div class="skill-box" data-aos="flip-right">
+            <div class="skill-tittle">
+              <div class="img">
+                <img src="img/Skill-Icon/css-3.png" alt="CSS " class="skill-icon"/>
+              </div>
+              <h3>CSS 3</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore excepturi corporis vitae nesciunt, autem dignissimos sapiente illum ab culpa cupiditate libero provident totam aperiam nisi ratione doloremque recusandae beatae!</p> -->
+          </div>
+          <div class="skill-box" data-aos="flip-right">
+            <div class="skill-tittle">
+              <div class="img">
+                <img src="img/Skill-Icon/js.png" alt="Javascript" class="skill-icon"/>
+              </div>
+              <h3>Javascript</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore excepturi corporis vitae nesciunt, autem dignissimos sapiente illum ab culpa cupiditate libero provident totam aperiam nisi ratione doloremque recusandae beatae!</p> -->
+          </div>
+          <div class="skill-box" data-aos="flip-right">
+            <div class="skill-tittle">
+              <div class="img">
+                <img src="img/Skill-Icon/php.png" alt="PHP" class="skill-icon"/>
+              </div>
+              <h3>PHP</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore excepturi corporis vitae nesciunt, autem dignissimos sapiente illum ab culpa cupiditate libero provident totam aperiam nisi ratione doloremque recusandae beatae!</p> -->
+          </div>
+          <div class="skill-box" data-aos="flip-right">
+            <div class="skill-tittle">
+              <div div class="img">
+                <img src="img/Skill-Icon/mysql.png" alt="MySQL" class="skill-icon"/>
+              </div>
+              <h3>MySQL</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore excepturi corporis vitae nesciunt, autem dignissimos sapiente illum ab culpa cupiditate libero provident totam aperiam nisi ratione doloremque recusandae beatae!</p> -->
+          </div>
+          <div class="skill-box" data-aos="flip-right">
+            <div class="skill-tittle">
+              <div class="img">
+                <img src="img/Skill-Icon/python.png" alt="Python" class="skill-icon"/>
+              </div>
+              <h3>Python</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore excepturi corporis vitae nesciunt, autem dignissimos sapiente illum ab culpa cupiditate libero provident totam aperiam nisi ratione doloremque recusandae beatae!</p> -->
+          </div>
+        </div>
+
+      <!-- Animated -->
+        <div class="skill-bars" data-aos="fade-up">
+          <div class="bar">
+            <div class="info">
+              <span>HTML 5</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS 3</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>PHP</span>
+            </div>
+            <div class="progress-line php">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>MySQL</span>
+            </div>
+            <div class="progress-line mysql">
+              <span></span>
+            </div>
+          <div class="bar">
+            <div class="info">
+              <span>Python</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+        </div>
+    <!-- Akhir animated -->
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#292f42" fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,229.3C384,224,480,192,576,202.7C672,213,768,267,864,256C960,245,1056,171,1152,149.3C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+    <!-- Akhir Skills -->
+
+    <!-- Project -->
+    <section id="projects" style="background-color: #292f42">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="header header-project mb-4" data-aos="fade-up">
+              <h2 class="mt-4">My Projects</h2>
+            </div>  
+          </div>
+        </div>
+        <div class="row" data-aos="fade-right">
+          <div class="col-md-4 pb-4 d-flex">
+            <div class="card">
+              <img src="img/myProjects/1.png" alt="Project 1">
+              <div class="card-overlay">
+                <h1 class="mt-1">Image Gallery</h1>
+                <p class="p-1">A simple gallery as my study case while learning JS DOM</p>
+                <div class="d-flex">
+                  <p class="bahasa">HTML</p>
+                  <p class="bahasa">CSS</p>
+                  <p class="bahasa">JavaScript</p>  
+                </div>
+                <a href="https://github.com/Maan-py/imageGallery" class="github">Open in github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-4 d-flex" data-aos="fade-right">
+            <div class="card">
+              <img src="img/myProjects/2.png" class="card-img-top" alt="Project 2">
+              <div class="card-overlay">
+                <h1 class="mt-1">First Portfolio</h1>
+                <p class="p-2" style="margin-top: -10px;">My first ever Portfolio website that i make to learn HTML and CSS</p>
+                <div class="d-flex">
+                  <p class="bahasa">HTML</p>
+                  <p class="bahasa">CSS</p>
+                </div>
+                <a href="https://github.com/Maan-py/portfolio" class="github">Open in github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-4 d-flex" data-aos="fade-right">
+            <div class="card">
+              <img src="img/myProjects/3.png" class="card-img-top" alt="Project 3">
+              <div class="card-overlay">
+                <h1 class="mt-1">Simple Website</h1>
+                <p class="p-2">A simple website i made to learn CSS positioning from WPU</p>
+                <div class="d-flex">
+                  <p class="bahasa">HTML</p>
+                  <p class="bahasa">CSS</p>
+                </div>
+                <a href="https://github.com/Maan-py/latihanWeb" class="github">Open in github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-right">
+          <div class="col-md-4 mb-4 d-flex">
+            <div class="card">
+              <img src="img/myProjects/4.png" class="card-img-top" alt="Project 4">
+              <div class="card-overlay">
+                <h1 class="mt-1">Internship Farewell Website</h1>
+                <p>Farewell website as internship keepsake</p>
+                <div class="d-flex">
+                  <p class="bahasa">Bootstrap</p>
+                  <p class="bahasa">JavaScript</p>
+                </div>
+                <a href="#a" class="github">Open in github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex" data-aos="fade-right">
+            <div class="card">
+              <img src="img/myProjects/5.png" class="card-img-top" alt="Project 5">
+              <div class="card-overlay">
+                <h1 class="mt-1">Light Box</h1>
+                <p>A rihlah memories gallery</p>
+                <div class="d-flex">
+                  <p class="bahasa">HTML</p>
+                  <p class="bahasa">CSS</p>
+                </div>
+                <a href="https://github.com/Maan-py/gallery" class="github">Open in github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#292f42" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,224C384,203,480,117,576,112C672,107,768,181,864,202.7C960,224,1056,192,1152,197.3C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <!-- Akhir project -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="header header-contact mb-4" data-aos="fade-up">
+        <h2 class="mt-4">Contact</h2>
+      </div>
+      <div class="containers d-flex">
+        <div class="contactInfo" data-aos="fade-right">
+          <div class="kotak">
+            <div class="icon">
+              <img src="img/svg/email.png" alt="" width="50">
+            </div>
+            <div class="text-1">
+              <h4>Email</h4>
+              <p>mluqmaan22@gmail.com</p>
+            </div>
+          </div>
+          <div class="kotak">
+            <div class="icon">
+              <img src="img/svg/instagram.png" alt="" width="50">
+            </div>
+            <div class="text-1">
+              <h4>Instagram</h4>
+              <p>@muhammad__luqmaan</p>
+            </div>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class="contact-form" data-aos="fade-up">
+          <form name="maan-contact-form">
+            <input type="text" name="name" class="text-box" placeholder="Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Email" required>
+            <textarea name="message" id="" placeholder="Message" required></textarea>
+            <button type="submit" class="send-btn btn-kirim">Send message</button>
+            <button type="submit" class="send-btn d-none btn-loading" style="background-color: #4c5064;">Sending
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir contact -->
+
+    <!-- Footer -->
+    <footer >
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+        <div class="wave" id="wave5"></div>
+        <div class="wave" id="wave6"></div>
+      </div>
+      <ul class="social-icon">
+        <li><a href="https://web.facebook.com/muhammad.luqmaan.75" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/muhammad.luqmaan_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://github.com/Maan-py" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="https://discord.gg/5srndgeNa8"><ion-icon name="logo-discord"></ion-icon></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>© 2022 Muhammad Luqmaan • All Rights Reserved</p>
+      <p class="d-flex align-items-center" id="p"><ion-icon name="people"  class="people" data-toggle="tooltip" data-placement="top" title="Visitor">a</ion-icon>: <span id="visits"></span> </p>
+    </footer>
+    <!-- Akhir footer -->
+
+    <!-- Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/EasePack.min.js"></script>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+      once: true
+    });
+    </script>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Tooltip -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <!-- Visitor counter -->
+    <script>
+    function cb(response) {
+      document.getElementById('visits').innerText = response.value;
+    }
+    </script>
+    <script async src="https://api.countapi.xyz/hit/index.html/visits?callback=cb"></script>
+
+    <!-- Contact -->
+    <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbxWLL-gKVJuHMp9Qn_XDMbuHi4CcEhQXiFeJIn1FUW18u22LXQYvDtq5jfK-4SvEgsC/exec";
+    const form = document.forms["maan-contact-form"];
+    const btnKirim = document.querySelector(".btn-kirim");
+    const btnLoading = document.querySelector(".btn-loading");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      // ketika tombol submit diclick
+      // tampilkan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle("d-none");
+      btnKirim.classList.toggle("d-none");
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => { console.log("Success!", response)
+        // tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        // tampilkan alert
+        const Toast = Swal.mixin({
+        toast: true,
+        width: 500,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+          toast.addEventListener("mouseenter", Swal.stopTimer);
+          toast.addEventListener("mouseleave", Swal.resumeTimer);
+          },
+        });
+
+        Toast.fire({
+          icon: "success",
+          title: "Message has been sent",
+        });
+      })
+      // reset
+      form.reset()
+        .catch((error) => console.error("Error!", error.message));
+    });
+    </script>
+
+    <!-- Tag cloud -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.svg3dtagcloud.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var entries = [
+          { label: "Luqmaan", url: "https://github.com/Maan-py", target: "_top" },
+          { label: "Yogyakarta", url: "", target: "_top" },
+          { label: "VALORANT", url: "", target: "_top" },
+          { label: "Genshin", url: "", target: "_top" },
+          { label: "Coding", url: "", target: "_top" },
+          { label: "HTML", url: "", target: "_top" },
+          { label: "Computer", url: "", target: "_top" },
+          { label: "Indonesia", url: "", target: "_top" },
+          { label: "Instagram", url: "https://www.instagram.com/muhammad.luqmaan_", target: "_top" },
+          { label: "Pekanbaru", url: "", target: "_top" },
+          { label: "UGM", url: "", target: "_top" },
+          { label: "Apex", url: "", target: "_top" },
+          { label: "JavaScript", url: "", target: "_top" },
+          { label: "PHP", url: "", target: "_top" },
+          { label: "MySQL", url: "", target: "_top" },
+          { label: "Football", url: "", target: "_top" },
+          { label: "Futsal", url: "", target: "_top" },
+          { label: "UNY", url: "", target: "_top" },
+          { label: "Facebook", url: "https://web.facebook.com/muhammad.luqmaan.75", target: "_top" },
+          { label: "Discord", url: "https://discord.gg/5srndgeNa8", target: "_top" },
+          { label: "Steam", url: "https://steamcommunity.com/id/Maan69/", target: "_top" },
+          { label: "Beginner", url: "", target: "_top" },
+          { label: "Luqmaan", url: "", target: "_top" },
+          { label: "Github", url: "https://github.com/Maan-py", target: "top" },
+          { label: "Bootstrap", url: "", target: "_top" },
+          { label: "Python", url: "", target: "_top" },
+          { label: "Luqmaan", url: "https://github.com/Maan-py", target: "_top" },
+          { label: "Student", url: "https://github.com/Maan-py", target: "_top" },
+        ];
+
+        var settings = {
+          entries: entries,
+          width: 450,
+          height: 400,
+          radius: "70%",
+          radiusMin: 75,
+          bgDraw: true,
+          bgColor: "#292f42",
+          opacityOver: 1.0,
+          opacityOut: 0.05,
+          opacitySpeed: 6,
+          fov: 700,
+          speed: 1,
+          fontFamily: "Oswald, Arial, sans-serif",
+          fontSize: "15",
+          fontColor: "yellow",
+          fontWeight: "normal", //bold
+          fontStyle: "normal", //italic
+          fontStretch: "normal", //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+          fontToUpperCase: true,
+          tooltipFontFamily: "Oswald, Arial, sans-serif",
+          tooltipFontSize: "11",
+          tooltipFontColor: "#fff",
+          tooltipFontWeight: "normal", //bold
+          tooltipFontStyle: "normal", //italic
+          tooltipFontStretch: "normal", //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+          tooltipFontToUpperCase: false,
+          tooltipTextAnchor: "left",
+          tooltipDiffX: 0,
+          tooltipDiffY: 10,
+        };
+
+        //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+        $("#holder").svg3DTagCloud(settings);
+      });
+    </script>
+  </body>
+</html>
